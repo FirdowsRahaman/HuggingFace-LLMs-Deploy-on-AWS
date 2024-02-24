@@ -32,7 +32,7 @@ By following these steps, you can easily create a scalable and serverless archit
  ``{"inputs": "write about blockchain"}``
    - Click on Test. You should see "Executing function: succeeded".
 
-### Step 2: Create API Gateway
+### Step 3: Create API Gateway
 1. Search for API Gateway in the AWS console and click on it.
 2. Scroll down to the REST API section and click on Build.
 3. Select Create new API.
@@ -47,5 +47,7 @@ By following these steps, you can easily create a scalable and serverless archit
       - Deployment stage: [New Stage]
       - Stage name: prod
       - Click Deploy.
-Once deployed, you'll see the Invoke URL which is your REST API URL.
-
+5. Once deployed, you'll see the Invoke URL which is your REST API URL.
+   
+### Step 4: Testing the API
+1. Run `test_api.py`
