@@ -4,7 +4,7 @@
 This guide demonstrates how to deploy HuggingFace Large Language Models (LLMs) as REST APIs using AWS SageMaker and AWS Lambda. 
 By following these steps, you can easily create a scalable and serverless architecture to deploy and utilize LLMs for various natural language processing tasks.
 
-### Step 1: Deploy LLM Model on AWS SageMaker
+### Step 1: Create AWS SageMaker Model Endpoint
 1. Go to the Amazon SageMaker Console.
 2. Navigate to the Inference section and click on Endpoints.
 3. Check if the model endpoint has been created and is currently in service.
@@ -32,7 +32,7 @@ By following these steps, you can easily create a scalable and serverless archit
  ``{"inputs": "write about blockchain"}``
    - Click on Test. You should see "Executing function: succeeded".
 
-### Step 2: Creating API Gateway
+### Step 2: Create API Gateway
 1. Search for API Gateway in the AWS console and click on it.
 2. Scroll down to the REST API section and click on Build.
 3. Select Create new API.
